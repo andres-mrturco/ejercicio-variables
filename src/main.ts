@@ -74,6 +74,3 @@ console.log(banda03);
 console.log(banda04);
 // Banda The Rolling Stones
 console.log(banda05);
-
-// test color
-console.log(banda01, "color.blue; font-size:18px");
