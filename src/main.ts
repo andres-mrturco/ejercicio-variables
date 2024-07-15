@@ -64,13 +64,21 @@ const banda05: banda = {
   genero: rock,
 };
 
+const estiloNombre =
+  "color:blue; font-size:18px; background:green; font-weight: bold;";
+
 // Banda The Beatles
+console.log("%cThe Beatles", estiloNombre);
 console.log(banda01);
 // Banda Queen
+console.log("%cQueen", estiloNombre);
 console.log(banda02);
 // Banda AC/DC
+console.log("%cAC/DC", estiloNombre);
 console.log(banda03);
 // Banda Ludwig van Beethoven
+console.log("%cLudwig van Beethoven", estiloNombre);
 console.log(banda04);
 // Banda The Rolling Stones
+console.log("%cThe Rolling Stones", estiloNombre);
 console.log(banda05);
